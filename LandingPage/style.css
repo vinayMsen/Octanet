@@ -117,7 +117,7 @@ label{
 }
 
 /* Responsive style */
-@media (max-width: 560px) {
+@media (max-width: 960px) {
     header .navigation {
         display: none;
     }
