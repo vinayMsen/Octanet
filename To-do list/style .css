@@ -12,7 +12,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(image1.jpg) no-repeat;
+    background: url(image11.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -28,7 +28,7 @@ header {
 
 header .logo {
     position: relative;
-    color: #000;
+    color: #0f119b;
     font-size: 30px;
     text-decoration: none;
     font-weight: 800;
@@ -36,7 +36,7 @@ header .logo {
 }
 header .navigation a {
     font-size: 18px;
-    color: #3AA6B9;
+    color: #1d3f96;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
@@ -53,22 +53,19 @@ header .navigation a:hover {
     color: #050C9C;
 }
 
-/*
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
-    padding: 10px;
-    
-}*/
-.todo-app{
+.todo-app {
     width: 100%;
     max-width: 540px;
-    background: #fff;
+    height: 100%;
+    max-height: 540px;
+    background: url(toimage.jpg);
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center; /* Centers the background image */
     margin: 50px auto 10px;
-    padding : 40px 30px 70px;
+    padding: 40px 30px 70px;
     border-radius: 10px;
 }
+
 .todo-app h2{
     color: #002765;
     display : block;
@@ -100,12 +97,14 @@ input{
     outline:none;
     background: transparent;
     padding: 10px;
+    font-weight: 600;
+    border:2px antiquewhite;
 }
 button{
     border: none;
     outline:none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: #2763b7;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -158,24 +157,3 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
-
-.media-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.media-icons a {
-    position: relative;
-    color: #111;
-    font-size: 25px;
-    transition: transform 0.3s;
-}
-.media-icons a:not(:last-child) {
-    margin-right: 60px;
-}
-.media-icons a:hover i {
-    transform: scale(1.5);
-}
-
-
