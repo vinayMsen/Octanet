@@ -86,6 +86,7 @@ header .navigation a:hover {
     justify-content: space-between;
     background:#edeef0;
     border-radius: 30px;
+    
     padding-left: 20px;
     margin-bottom: 25px;
 }
@@ -98,6 +99,7 @@ input{
     background: transparent;
     padding: 10px;
     font-weight: 600;
+    font-size: 15px;
     border:2px antiquewhite;
 }
 button{
@@ -109,6 +111,7 @@ button{
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+    border: 1px solid rgb(11, 98, 197);
 }
 
 ul li{
